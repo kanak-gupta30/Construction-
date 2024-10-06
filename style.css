@@ -33,6 +33,7 @@ header button{
 .second{
     text-align: center;
     padding: 10px;
+    width: 1420px;
 
 }
 .line{
@@ -47,7 +48,7 @@ header button{
 }
 .second .b2{
     display: flex;
-    margin:  50px 190px;
+    margin:  50px 16%;
 }
 .second .b2 .bb1 img{
     height: 450px;
@@ -101,8 +102,9 @@ color: rgb(128, 134, 139);
 }
 .third{
     background-image: url("images/third.jpg");
-    padding: 50px;
+    padding: 50px 0px;
 text-align: center;
+width: 1420px;
 }
 .third .h2{
     font-size: 2.8rem;
@@ -129,12 +131,14 @@ padding: 0px 10px;
     flex-direction: row;
     align-items: center;
     width: 1300px;
+/* margin: 70px 10px 5px; */
 }
 .third .block-third .project{
     display: flex;
     overflow: hidden;
     width: 1010px;
     text-align: center;
+    /* padding-right: 13px; */
 }
 .third .block-third button{
     border: none;
@@ -145,17 +149,17 @@ padding: 0px 10px;
 }
 .fourth{
     text-align: center;
-    padding: 10px 266px;
+    padding: 10px 17%;
 }
 .fourth h1{
     font-size: 2.4rem;
-    padding: -40px;
 }
 .fourth .blocks{
     display: flex;
     margin-top: 70px;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap;
 }
 .fourth .blocks .bb {
     font-size: 1.5rem;
@@ -165,7 +169,7 @@ padding: 0px 10px;
     height: 500px;
     background-color: rgb(108, 185, 240,0.8);
     display: flex;
-    width:1420px;
+    width: 1420px;
 }
 
 .fifth .contact{
@@ -249,7 +253,7 @@ width: 150px;
 footer{
     height: 50px;
     display: flex;
-    width:1420px;
+    width: 1420px;
     background-color: black;
 }
 footer .cr{
