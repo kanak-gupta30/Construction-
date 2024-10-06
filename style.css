@@ -2,7 +2,7 @@ body{
 margin: 0px;
 }
 header{
-    width: 100%;
+    width: 1420px;
     height: 118px;
     display: flex;
     text-align: center;
@@ -28,7 +28,7 @@ header button{
     border: 0;
     font-size: 1rem;
 } .first img{
-    width: 1430px;
+    width: 1420px;
 }
 .second{
     text-align: center;
@@ -47,7 +47,6 @@ header button{
 }
 .second .b2{
     display: flex;
-    flex-wrap: wrap;
     margin:  50px 190px;
 }
 .second .b2 .bb1 img{
@@ -130,14 +129,12 @@ padding: 0px 10px;
     flex-direction: row;
     align-items: center;
     width: 1300px;
-margin: 70px 10px 5px;
 }
 .third .block-third .project{
     display: flex;
     overflow: hidden;
     width: 1010px;
     text-align: center;
-    padding-right: 13px;
 }
 .third .block-third button{
     border: none;
@@ -168,6 +165,7 @@ margin: 70px 10px 5px;
     height: 500px;
     background-color: rgb(108, 185, 240,0.8);
     display: flex;
+    width:1420px;
 }
 
 .fifth .contact{
@@ -251,6 +249,7 @@ width: 150px;
 footer{
     height: 50px;
     display: flex;
+    width:1420px;
     background-color: black;
 }
 footer .cr{
